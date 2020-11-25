@@ -1,0 +1,54 @@
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:ns1="http://Electronet.B2B.Schemas.Fabricante.Consultas">
+   <env:Body>
+      <ns1:documento_ptl_response>
+         <info_control>
+            <transaccion id="1" test="1">
+               <fecha_creacion>
+                  <anyo>2020</anyo>
+                  <mes>10</mes>
+                  <dia>27</dia>
+                  <hora/>
+                  <minuto/>
+                  <segundo/>
+                  <msegundo/>
+               </fecha_creacion>
+               <fecha_modificacion>
+                  <anyo>2020</anyo>
+                  <mes>10</mes>
+                  <dia>27</dia>
+                  <hora/>
+                  <minuto/>
+                  <segundo/>
+                  <msegundo/>
+               </fecha_modificacion>
+               <estado/>
+            </transaccion>
+            <info_tipo url_xsd="?" version="0.6">?</info_tipo>
+            <interlocutores>
+               <origen>
+                  <tipo id_usuario="143_GRUPO_ELECTRO_STOCKS" id_grupo=""/>
+               </origen>
+               <destino>
+                  <tipo id_usuario="" id_grupo=""/>
+               </destino>
+            </interlocutores>
+         </info_control>
+         <respuesta_datos_doc>
+            <Acknowledge>
+               <Solicitante>GES110</Solicitante>
+               <Destinatario/>
+               <Tipo_consulta>Q</Tipo_consulta>
+               <Referencia_material>GB2DB05xxxxx</Referencia_material>
+               <Cod_punto_venta>GES110</Cod_punto_venta>
+               <Status>05</Status>
+               <Descripcion>Referencia errónea.</Descripcion>
+            </Acknowledge>
+         </respuesta_datos_doc>
+         <mensajes>
+            <severidad>0</severidad>
+            <msg_ptl/>
+            <msg_funcional/>
+         </mensajes>
+      </ns1:documento_ptl_response>
+   </env:Body>
+</env:Envelope>

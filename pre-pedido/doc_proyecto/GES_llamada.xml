@@ -1,0 +1,87 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:elec="http://Electronet.B2B.Schemas.Fabricante.Consultas">
+   <soap:Header/>
+   <soap:Body>
+      <elec:documento_ptl version="?">
+         <info_control>
+            <transaccion id="1" test="1">
+               <fecha_creacion>
+                  <anyo>2020</anyo>
+                  <mes>10</mes>
+                  <dia>27</dia>
+                  <hora></hora>
+                  <minuto></minuto>
+                  <segundo></segundo>
+                  <msegundo></msegundo>
+               </fecha_creacion>
+               <fecha_modificacion>
+                  <anyo>2020</anyo>
+                  <mes>10</mes>
+                  <dia>27</dia>
+                  <hora></hora>
+                  <minuto></minuto>
+                  <segundo></segundo>
+                  <msegundo></msegundo>
+               </fecha_modificacion>
+               <estado></estado>
+            </transaccion>
+            <info_tipo url_xsd="?" version="0.6">?</info_tipo>
+            <interlocutores>
+               <origen>
+                  <tipo id_usuario="143_GRUPO_ELECTRO_STOCKS" id_grupo=""/>
+               </origen>
+               <destino>
+                  <tipo id_usuario="" id_grupo=""/>
+               </destino>
+            </interlocutores>
+         </info_control>
+         <datos_doc>
+          <consulta_materiales version="?">
+               <solicitante>GES110</solicitante>
+               <destinatario></destinatario>
+   <referencias id="1">   
+            <referencia>GB2DB05</referencia>
+               <fecha>
+                  <anyo>2020</anyo>
+                  <mes>10</mes>
+                  <dia>27</dia>
+                  <hora></hora>
+                  <minuto></minuto>
+                  <segundo></segundo>
+                  <msegundo></msegundo>
+               </fecha>
+               <cantidad>3</cantidad>
+               <!--Optional:-->
+               <campanya></campanya>
+               <!--Optional:-->
+               <oferta></oferta>
+               <extra></extra>
+</referencias>   
+   <referencias id="2">   
+            <referencia>16301</referencia>
+               <fecha>
+                  <anyo>2020</anyo>
+                  <mes>10</mes>
+                  <dia>27</dia>
+                  <hora></hora>
+                  <minuto></minuto>
+                  <segundo></segundo>
+                  <msegundo></msegundo>
+               </fecha>
+               <cantidad>2</cantidad>
+               <!--Optional:-->
+               <campanya>50005</campanya>
+               <!--Optional:-->
+               <oferta></oferta>
+               <extra></extra>
+</referencias>
+            </consulta_materiales>
+         </datos_doc>
+         <!--Optional:-->
+         <mensajes>
+            <severidad></severidad>
+            <msg_ptl id="1">1</msg_ptl>
+            <msg_funcional id="1"></msg_funcional>
+         </mensajes>
+      </elec:documento_ptl>
+   </soap:Body>
+</soap:Envelope>
